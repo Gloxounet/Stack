@@ -4,7 +4,7 @@ class Stack :
 
     def __init__(self) :
         self.stack = []
-    
+
     def add_task(self,task) :
         self.stack.append(task)
     
