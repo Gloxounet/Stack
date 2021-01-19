@@ -1,3 +1,3 @@
 # Stack-It - Python Test
 
-Code architecture in python to translate it later in swift
+Code architecture in python, that will be translated later in swift
