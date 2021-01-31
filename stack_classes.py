@@ -1,17 +1,13 @@
-#This file contain the classes that will be used in the Stack_It app
+# This file contain the classes that will be used in the Stack_It app
 
 class Stack :
+    
 
     def __init__(self) :
         self.stack = []
 
     def add_task(self,task) :
         self.stack.append(task)
-    
-    def show_stack_in_txt(self):
-        with open("current_stack.txt", "w") as txt :
-            for (i,task) in enumerate(self.stack) :
-                txt.write("Task {} : {}, estimated time : {} \n".format(i,task.name,task.time))
 
     def find_closest_time(self,time) :
         if self.stack == [] :
@@ -22,7 +18,7 @@ class Stack :
                 minimum = min(minimum,task)
         return minimum
 
-    def trier_stack(self):
+    def sort_stack(self):
         self.stack.sort()
 
 class Task :
@@ -48,6 +44,23 @@ def create_task(name:str,time:int):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Module description :
 
 if __name__ == "__main__":
     print("This is the stack_classes module that is used to build stacks")
