@@ -41,23 +41,6 @@ class Stack :
         self.stack.sort()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Module description :
 
 if __name__ == "__main__":

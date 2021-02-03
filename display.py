@@ -15,9 +15,16 @@ class StackViewApp:
 
         #3: Create the mainwindow
         self.mainwindow = builder.get_object('mainwindow')
+
+        #4: Get objects
+        self.entry_task_name = builder.get_object('entry_task_name')
         
     def run(self):
         self.mainwindow.mainloop()
+
+    def test(self) :
+        self.entry_task_name['text'] == "Wow"
+        print("done")
 
 
 if __name__ == '__main__':
